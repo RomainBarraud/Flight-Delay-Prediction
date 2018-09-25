@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Upload</title>
+<h1>Welcome to flight claim predictor</h1>
+<h3>Please upload your csv file</h3>
+<form method=post enctype=multipart/form-data>
+  <input type=file name=file>
+  <input type=submit value=Upload>
+</form>
+<p></p>
+<img src="{{url_for('static', filename='plane_medium.jpg')}}"/>
